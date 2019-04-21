@@ -1,0 +1,32 @@
+
+state={
+	id=504
+	name="STATE_504"
+	resources={
+		steel=1.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = X86
+		victory_points = {
+			4435 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X86
+	}
+
+	provinces={
+		4435 
+	}
+	manpower=23020
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=92
+	name="STATE_92"
+	resources={
+		aluminium=6.000
+		rubber=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			7950 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = X25
+	}
+
+	provinces={
+		2001 7950 7983 8071 10836 12851 
+	}
+	manpower=1966560
+	buildings_max_level_factor=1.000
+	state_category=town
+}

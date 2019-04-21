@@ -1,0 +1,27 @@
+
+state={
+	id=606
+	name="STATE_606"
+
+	history={
+		owner = USA
+		victory_points = {
+			9727 7 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 4
+			air_base = 3
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1445 1582 4402 4452 4988 6696 6974 7547 9727 10586 10727 12568 12637 12709 
+	}
+	manpower=4429040
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

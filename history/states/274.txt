@@ -1,0 +1,34 @@
+
+state={
+	id=274
+	name="STATE_274"
+	resources={
+		chromium=6.000
+		rubber=2.000
+		steel=26.000
+		tungsten=38.000
+	}
+
+	history={
+		owner = GXC
+		victory_points = {
+			1047 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 2
+			air_base = 0
+
+		}
+		add_core_of = GXC
+	}
+
+	provinces={
+		994 1018 1038 1047 1070 1087 1131 1187 4023 4092 4160 7039 7135 7152 9963 10004 10080 10105 11926 11938 11941 11963 11981 11990 12077 12095 
+	}
+	manpower=12101756
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

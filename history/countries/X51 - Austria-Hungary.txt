@@ -1,0 +1,1225 @@
+ï»¿capital = 335
+set_research_slots = 4
+
+oob = "X51_OOB"
+
+# Starting tech
+set_technology = {
+basic_light_tank = 1
+early_battleship = 1
+early_bomber = 1
+early_destroyer = 1
+early_fighter = 1
+early_heavy_cruiser = 1
+early_light_cruiser = 1
+early_submarine = 1
+electronic_mechanical_engineering = 1
+fighter1 = 1
+gw_artillery = 1
+gwtank = 1
+improved_light_tank = 1
+infantry_weapons = 1
+infantry_weapons1 = 1
+interwar_antiair = 1
+interwar_artillery = 1
+motorised_infantry = 1
+support_weapons = 1
+synth_oil_experiments = 1
+tactical_bomber1 = 1
+tech_engineers = 1
+tech_recon = 1
+tech_support = 1
+transport = 1
+}
+
+# Research Bonuses
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_battlefield_support name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_grand_battle_plan name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_mass_assault name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_mobile_warfare name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_operational_integrity name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_strategic_destruction name = doctrine_bonus }
+add_tech_bonus = { bonus = 0.90 uses = 1 category = cat_superior_firepower name = doctrine_bonus }
+set_convoys = 0
+
+
+set_politics = {
+
+    parties = {
+        absolutist = {
+            popularity = 2
+        }
+        communism = {
+            popularity = 0
+        }
+        democratic = {
+            popularity = 15
+        }
+        fascism = {
+            popularity = 80
+        }
+        neutrality = {
+            popularity = 3
+        }
+        radical = {
+            popularity = 0
+        }
+    }
+    
+    ruling_party = absolutist
+    last_election = "1931.9.24"
+    election_frequency = 48
+    elections_allowed = no
+}
+add_opinion_modifier = { target = AFG modifier = positive_0 }
+add_opinion_modifier = { target = ALG modifier = negative_100 }
+add_opinion_modifier = { target = ARG modifier = positive_0 }
+add_opinion_modifier = { target = BEL modifier = negative_75 }
+add_opinion_modifier = { target = BHU modifier = positive_0 }
+add_opinion_modifier = { target = BLR modifier = positive_200 }
+add_opinion_modifier = { target = BOL modifier = positive_17 }
+add_opinion_modifier = { target = BRA modifier = negative_82 }
+add_opinion_modifier = { target = BUL modifier = negative_200 }
+add_opinion_modifier = { target = BUR modifier = positive_0 }
+add_opinion_modifier = { target = CAM modifier = positive_0 }
+add_opinion_modifier = { target = CHI modifier = positive_0 }
+add_opinion_modifier = { target = CHL modifier = positive_20 }
+add_opinion_modifier = { target = COL modifier = negative_80 }
+add_opinion_modifier = { target = CUB modifier = positive_20 }
+add_opinion_modifier = { target = DEN modifier = negative_200 }
+add_opinion_modifier = { target = ECU modifier = positive_20 }
+add_opinion_modifier = { target = EGY modifier = negative_180 }
+add_opinion_modifier = { target = ENG modifier = positive_10 }
+add_opinion_modifier = { target = EST modifier = positive_15 }
+add_opinion_modifier = { target = ETH modifier = positive_1 }
+add_opinion_modifier = { target = FIN modifier = positive_3 }
+add_opinion_modifier = { target = FLA modifier = negative_200 }
+add_opinion_modifier = { target = FRA modifier = negative_190 }
+add_opinion_modifier = { target = GER modifier = negative_126 }
+add_opinion_modifier = { target = GRE modifier = negative_150 }
+add_opinion_modifier = { target = GXC modifier = negative_100 }
+add_opinion_modifier = { target = HAI modifier = positive_0 }
+add_opinion_modifier = { target = HOL modifier = positive_74 }
+add_opinion_modifier = { target = IRE modifier = positive_20 }
+add_opinion_modifier = { target = ITA modifier = negative_199 }
+add_opinion_modifier = { target = JAP modifier = negative_60 }
+add_opinion_modifier = { target = KGZ modifier = positive_0 }
+add_opinion_modifier = { target = KOR modifier = negative_50 }
+add_opinion_modifier = { target = LAO modifier = positive_0 }
+add_opinion_modifier = { target = LAT modifier = positive_30 }
+add_opinion_modifier = { target = LIB modifier = positive_5 }
+add_opinion_modifier = { target = LIT modifier = positive_30 }
+add_opinion_modifier = { target = MAD modifier = positive_0 }
+add_opinion_modifier = { target = MAN modifier = positive_20 }
+add_opinion_modifier = { target = MAR modifier = positive_0 }
+add_opinion_modifier = { target = MEX modifier = positive_20 }
+add_opinion_modifier = { target = MNT modifier = negative_3 }
+add_opinion_modifier = { target = NEP modifier = positive_0 }
+add_opinion_modifier = { target = NIG modifier = negative_10 }
+add_opinion_modifier = { target = OMA modifier = negative_200 }
+add_opinion_modifier = { target = PAK modifier = positive_0 }
+add_opinion_modifier = { target = PAN modifier = positive_20 }
+add_opinion_modifier = { target = PAR modifier = positive_0 }
+add_opinion_modifier = { target = PER modifier = negative_105 }
+add_opinion_modifier = { target = POL modifier = negative_200 }
+add_opinion_modifier = { target = POR modifier = negative_20 }
+add_opinion_modifier = { target = PRU modifier = positive_20 }
+add_opinion_modifier = { target = RAJ modifier = negative_10 }
+add_opinion_modifier = { target = ROM modifier = negative_159 }
+add_opinion_modifier = { target = SCO modifier = positive_5 }
+add_opinion_modifier = { target = SER modifier = negative_109 }
+add_opinion_modifier = { target = SIA modifier = negative_200 }
+add_opinion_modifier = { target = SLO modifier = negative_17 }
+add_opinion_modifier = { target = SOV modifier = negative_124 }
+add_opinion_modifier = { target = SPR modifier = positive_30 }
+add_opinion_modifier = { target = SWE modifier = negative_200 }
+add_opinion_modifier = { target = SWI modifier = positive_96 }
+add_opinion_modifier = { target = TIB modifier = positive_0 }
+add_opinion_modifier = { target = TUN modifier = positive_0 }
+add_opinion_modifier = { target = TUR modifier = positive_14 }
+add_opinion_modifier = { target = U78 modifier = positive_20 }
+add_opinion_modifier = { target = UKR modifier = negative_200 }
+add_opinion_modifier = { target = URG modifier = positive_0 }
+add_opinion_modifier = { target = USA modifier = negative_200 }
+add_opinion_modifier = { target = UZB modifier = negative_50 }
+add_opinion_modifier = { target = VEN modifier = positive_20 }
+add_opinion_modifier = { target = WLL modifier = negative_21 }
+add_opinion_modifier = { target = X00 modifier = positive_30 }
+add_opinion_modifier = { target = X03 modifier = positive_0 }
+add_opinion_modifier = { target = X06 modifier = positive_0 }
+add_opinion_modifier = { target = X08 modifier = positive_0 }
+add_opinion_modifier = { target = X09 modifier = positive_0 }
+add_opinion_modifier = { target = X10 modifier = positive_0 }
+add_opinion_modifier = { target = X13 modifier = positive_0 }
+add_opinion_modifier = { target = X18 modifier = positive_15 }
+add_opinion_modifier = { target = X21 modifier = positive_0 }
+add_opinion_modifier = { target = X22 modifier = negative_85 }
+add_opinion_modifier = { target = X23 modifier = positive_0 }
+add_opinion_modifier = { target = X24 modifier = positive_15 }
+add_opinion_modifier = { target = X25 modifier = positive_15 }
+add_opinion_modifier = { target = X26 modifier = negative_85 }
+add_opinion_modifier = { target = X27 modifier = positive_15 }
+add_opinion_modifier = { target = X28 modifier = positive_15 }
+add_opinion_modifier = { target = X29 modifier = positive_5 }
+add_opinion_modifier = { target = X33 modifier = positive_0 }
+add_opinion_modifier = { target = X41 modifier = positive_0 }
+add_opinion_modifier = { target = X42 modifier = positive_0 }
+add_opinion_modifier = { target = X44 modifier = positive_0 }
+add_opinion_modifier = { target = X46 modifier = positive_0 }
+add_opinion_modifier = { target = X48 modifier = positive_0 }
+add_opinion_modifier = { target = X50 modifier = positive_200 }
+add_opinion_modifier = { target = X52 modifier = positive_0 }
+add_opinion_modifier = { target = X62 modifier = positive_0 }
+add_opinion_modifier = { target = X71 modifier = positive_20 }
+add_opinion_modifier = { target = X73 modifier = positive_0 }
+add_opinion_modifier = { target = X75 modifier = positive_0 }
+add_opinion_modifier = { target = X84 modifier = negative_141 }
+add_opinion_modifier = { target = X86 modifier = positive_0 }
+add_opinion_modifier = { target = X89 modifier = positive_0 }
+add_opinion_modifier = { target = X91 modifier = positive_5 }
+add_opinion_modifier = { target = X97 modifier = positive_0 }
+add_opinion_modifier = { target = X99 modifier = positive_0 }
+add_opinion_modifier = { target = YEM modifier = negative_10 }
+add_opinion_modifier = { target = YUN modifier = positive_0 }
+
+create_faction = "Alliance of Austria-Hungary"
+add_to_faction = X51
+add_to_faction = BLR
+
+add_ideas = {
+	great_power
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_south_german
+}
+set_stability = 0.60
+set_war_support = 0.76
+create_country_leader = {
+    name = "Wilhelm Wittmann"
+    desc = "POLITICS_WILHELM_WITTMANN_DESC"
+    picture = "GFX_portrait_ger_wilhelm_ii"
+    expire = "1965.1.1"
+    ideology = absolute_monarchy
+    traits = {
+    }
+}
+create_corps_commander = {
+	name = "Gebhard Wagner"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Jakob Goering"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Joachim Trunk"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Erwin Hellpach"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Viktor Seitz"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Gustav von Hötzendorf"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ernst Mergenthaler"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Leonhard Blos"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Arthur Hainisch"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Werner Beck-Rzikowsky"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Bernhard von Hartmann"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Engelbert Wittmann"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ludwig von Habsburg"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Arthur Eisner"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Joseph von Uchatius"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Eduard Schmitt"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Konrad von Haynau"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Gebhard Köhler"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Arthur von Hortstein"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alfons von Württemberg"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Edmund d'Aspre von Hoobreuk"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Michael von Brudermann"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Joachim Köhler"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Johann von Grünne"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Konrad von Uchatius"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Gottfried zu Hohenlohe"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Otto von Kobratin"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Walter von Hortstein"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hermann von Dietrich"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Julius von Clam-Gallas"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Maximilian Hummel"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Bernhard Stolzer"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Lothar Miklas"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Theodor von Baden"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Johann Stolzer"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Franz von Uchatius"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Reinhold Schmitt"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Engelbert Hellpach"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Konrad von Tegetthoff"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Günther von Haynau"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Viktor d'Aspre von Hoobreuk"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Friedrich zu Hohenlohe"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Edmund Dankl"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Julius Schmitt"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alexander Hummel"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Reinhold Beck-Rzikowsky"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Christian von der Tann"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alfons von Baden"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Stefan Geiss"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Bernhard von Grünne"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Eduard Eisner"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Johann von Württemberg"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Lothar Schobber"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Joseph d'Aspre von Hoobreuk"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Theodor zu Hohenlohe"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Gebhard Held"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Maximilian Haus"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Adolf Beck-Rzikowsky"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Albrecht Remmele"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Theodor von Wittelsbach"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Michael Miklas"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Stefan Köhler"
+	picture = ""
+	traits = { }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Günther Wagner"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Heinrich d'Aspre von Hoobreuk"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Franz von Gablenz"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alexander Miklas"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Franz Hoffmann"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alfons von Uchatius"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Franz Schobber"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Engelbert Hoffmann"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Julius Miklas"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Rudolf von Kobratin"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Werner von Wittelsbach"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Otto Trunk"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alois von Kobratin"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Wilhelm d'Aspre von Hoobreuk"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Friedrich von der Tann"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Adolf von Dietrich"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alexander von Hohenhausen"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Erwin von Wittelsbach"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Reinhold von Hohenhausen"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Konrad Mergenthaler"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Gebhard von der Tann"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Walter Köhler"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Jakob von Baden"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Günther Schobber"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Adolf Köhler"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Konrad von Brudermann"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Lorenz von Hötzendorf"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Engelbert von Hötzendorf"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Albrecht Steeb"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Heinrich Hellpach"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Leopold Dankl"
+	picture = ""
+	traits = { }
+	skill = 1
+}
+

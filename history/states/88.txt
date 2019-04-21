@@ -1,0 +1,29 @@
+
+state={
+	id=88
+	name="STATE_88"
+
+	history={
+		owner = X22
+		victory_points = {
+			2196 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = OMA
+		add_core_of = X22
+		add_core_of = X99
+	}
+
+	provinces={
+		2196 
+	}
+	manpower=357156
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

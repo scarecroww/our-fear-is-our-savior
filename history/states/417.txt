@@ -1,0 +1,29 @@
+
+state={
+	id=417
+	name="STATE_417"
+
+	history={
+		owner = ROM
+		victory_points = {
+			577 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = MDA
+		add_core_of = ROM
+		add_core_of = X79
+	}
+
+	provinces={
+		577 723 744 3728 3741 6584 6706 6729 6747 6761 9548 9701 9716 11534 11652 11655 11672 11689 
+	}
+	manpower=1764532
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

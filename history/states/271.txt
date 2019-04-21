@@ -1,0 +1,33 @@
+
+state={
+	id=271
+	name="STATE_271"
+	resources={
+		chromium=4.000
+	}
+
+	history={
+		owner = GRE
+		victory_points = {
+			3401 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			3401 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = GRE
+	}
+
+	provinces={
+		3401 
+	}
+	manpower=73080
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=18
+	name="STATE_18"
+	resources={
+		aluminium=4.000
+		oil=2.000
+	}
+
+	history={
+		owner = X08
+		victory_points = {
+			11952 9 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			10118 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X08
+	}
+
+	provinces={
+		1103 1144 4064 4090 4132 7207 10118 11952 12037 
+	}
+	manpower=5723724
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

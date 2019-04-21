@@ -1,0 +1,34 @@
+
+state={
+	id=150
+	name="STATE_150"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			6103 21 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 1
+			6489 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		507 3501 6103 6221 6489 9239 9458 11333 11446 11471 13070 
+	}
+	manpower=4392328
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

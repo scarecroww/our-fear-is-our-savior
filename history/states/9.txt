@@ -1,0 +1,31 @@
+
+state={
+	id=9
+	name="STATE_9"
+	resources={
+		aluminium=14.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			8216 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ARG
+		add_core_of = BOL
+	}
+
+	provinces={
+		2136 2158 2179 8195 8216 8253 10964 11022 12928 12978 
+	}
+	manpower=174812
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

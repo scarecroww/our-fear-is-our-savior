@@ -1,0 +1,33 @@
+
+state={
+	id=66
+	name="STATE_66"
+	resources={
+		aluminium=0.000
+		steel=1.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			2045 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = CHI
+		add_core_of = XSM
+	}
+
+	provinces={
+		1257 2045 4375 4403 5193 9966 10132 10787 10817 10903 
+	}
+	manpower=3514660
+	buildings_max_level_factor=1.000
+	state_category=city
+}

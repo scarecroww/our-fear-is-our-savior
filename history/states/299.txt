@@ -1,0 +1,35 @@
+
+state={
+	id=299
+	name="STATE_299"
+	resources={
+		aluminium=6.000
+		steel=3.000
+	}
+
+	history={
+		owner = IRE
+		victory_points = {
+			11293 14 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 2
+			dockyard = 2
+			11293 = {
+				naval_base = 8
+			}
+			air_base = 8
+
+		}
+		add_core_of = IRE
+	}
+
+	provinces={
+		285 303 369 3342 3359 3396 7377 9255 9303 9321 9369 11238 11287 11293 11303 11371 
+	}
+	manpower=4809632
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

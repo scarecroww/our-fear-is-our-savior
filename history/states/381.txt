@@ -1,0 +1,27 @@
+
+state={
+	id=381
+	name="STATE_381"
+
+	history={
+		owner = PER
+		victory_points = {
+			5098 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		829 2065 4943 5050 5098 8040 8125 9816 10774 12773 
+	}
+	manpower=1131004
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

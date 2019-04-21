@@ -1,0 +1,34 @@
+
+state={
+	id=547
+	name="STATE_547"
+	resources={
+		chromium=6.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			6550 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			6550 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = GRE
+		add_core_of = TUR
+	}
+
+	provinces={
+		6550 7003 8435 10007 
+	}
+	manpower=637008
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

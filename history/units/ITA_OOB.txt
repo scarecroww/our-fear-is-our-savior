@@ -1,0 +1,1426 @@
+﻿start_equipment_factor = 0
+division_template = {
+	name = "Armored Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Assault Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		light_armor = { x = 4 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Assault Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+		light_armor = { x = 2 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Light Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Light Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+### No BHU air forces ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "ITA"
+		}
+		requested_factories = 5
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "ITA"
+		}
+		requested_factories = 2
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "ITA"
+		}
+		requested_factories = 5
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "ITA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "ITA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = convoy_1
+			creator = "ITA"
+		}
+		requested_factories = 10
+		progress = 0.50
+		amount = 100
+	}
+}
+units = {
+	division = {
+		name = "1. Infantry Division"
+		location = 3780
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 3780
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3. Infantry Division"
+		location = 3780
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "4. Infantry Division"
+		location = 3780
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 3780
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Brigade"
+		location = 3780
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Division"
+		location = 3780
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 6780
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 6780
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3. Infantry Division"
+		location = 6780
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 6780
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 6780
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Cavalry Brigade"
+		location = 6780
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 883
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 883
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3. Infantry Division"
+		location = 883
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 883
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 883
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Assault Division"
+		location = 5812
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 5812
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Division"
+		location = 5812
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 5812
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 5812
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 6843
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 6843
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3. Infantry Division"
+		location = 6843
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 6843
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Cavalry Brigade"
+		location = 6843
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 9904
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 9904
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Division"
+		location = 9904
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Light Infantry Division"
+		location = 9904
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3. Light Infantry Division"
+		location = 9904
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "4. Light Infantry Division"
+		location = 9904
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "5. Light Infantry Division"
+		location = 9904
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 9904
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Light Infantry Brigade"
+		location = 9904
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 9904
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Assault Division"
+		location = 11837
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 11837
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 11837
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Cavalry Brigade"
+		location = 11837
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	navy = {
+		name = "1. Flotte"
+		base = 9821
+		location = 9821
+		ship = {
+			name = "Italia"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "1. Venedigs Großkampfschiff"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "1. Ferraras Großkampfschiff"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "2. Venedigs Großkampfschiff"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Regina Maria Pia"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Giulio Cesare"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Dante Alighieri"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "6. Triests Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Taranto"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Marsala"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "4. Triests Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "1. Venedigs Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "General Garibaldi"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Bari"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+	}
+	navy = {
+		name = "4. Flotte"
+		base = 9821
+		location = 5838
+		ship = {
+			name = "Emanuele Filiberto"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Benedetto Brin"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "5. Genuas Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "General Pueyrredon"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+	}
+	navy = {
+		name = "3. Flotte"
+		base = 6862
+		location = 6862
+		ship = {
+			name = "Ruggiero di Lauria"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Sardegna"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Re Umberto"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Lepanto"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Ammiraglio di Saint Bon"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "3. Venedigs Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "4. Venedigs Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Pisa"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Marco Polo"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Carlo Alberto"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+	}
+	navy = {
+		name = "5. Flotte"
+		base = 9821
+		location = 5707
+		ship = {
+			name = "Duilio"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Littorio"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Terribile"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Conte Verde"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Affondatore"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Conti di Cavour"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Messina"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Roma"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Formidabile"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Leonarda da Vince"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Andrea Doria"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "2. Ferraras Großkampfschiff"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Amalfi"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Zara"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "3. Triests Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Vettor Pisani"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "General Garibaldi"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "2. Ferraras Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "4. Genuas Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Pola"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "3. Genuas Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "2. Triests Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "General San Martin"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Gorizia"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+	}
+	navy = {
+		name = "6. Flotte"
+		base = 11837
+		location = 11837
+		ship = {
+			name = "Francesco Caracciolo"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "1. Genuas Großkampfschiff"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "2. Genuas Großkampfschiff"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "3. Genuas Großkampfschiff"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "3. Venedigs Großkampfschiff"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Re di Portogallo"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Castelfidardo"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Principe di Carignano"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Ancona"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Re d'Italia"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "San Martino"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Principe Amedeo"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "1. Triests Großkampfschiff"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "4. Genuas Großkampfschiff"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Sicilia"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Francesco Morosini"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Regina Margherita"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "1. Genuas Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "1. Triests Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "1. Ferraras Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Trieste"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "2. Venedigs Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "5. Triests Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Fiume"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "General San Martin"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "2. Genuas Kreuzer"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Vettor Pisani"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Bolzano"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "General Belgrano"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "San Marco"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Brindisi"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Carlo Alberto"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "San Giorgio"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+		ship = {
+			name = "Nino Bixio"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = ITA
+				}
+			}
+		}
+	}
+}

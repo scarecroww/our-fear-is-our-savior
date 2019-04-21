@@ -1,0 +1,30 @@
+
+state={
+	id=510
+	name="STATE_510"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = NIG
+		victory_points = {
+			11194 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = NIG
+	}
+
+	provinces={
+		11194 
+	}
+	manpower=255940
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

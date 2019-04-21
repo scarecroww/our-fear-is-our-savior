@@ -1,0 +1,37 @@
+
+state={
+	id=125
+	name="STATE_125"
+	resources={
+		aluminium=24.000
+		oil=6.000
+		steel=2.000
+	}
+
+	history={
+		owner = DEN
+		victory_points = {
+			12512 8 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			12512 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = DEN
+		add_core_of = ICE
+		add_core_of = SCA
+	}
+
+	provinces={
+		4861 10245 10636 12512 12674 12689 13058 13066 
+	}
+	manpower=223760
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

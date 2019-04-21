@@ -1,0 +1,33 @@
+
+state={
+	id=377
+	name="STATE_377"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = X75
+		victory_points = {
+			10905 13 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = RAJ
+		add_core_of = U80
+		add_core_of = X53
+		add_core_of = X75
+	}
+
+	provinces={
+		2041 2084 7273 7316 8005 10821 10905 12754 12884 
+	}
+	manpower=1604764
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

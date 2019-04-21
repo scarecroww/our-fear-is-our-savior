@@ -1,0 +1,32 @@
+
+state={
+	id=410
+	name="STATE_410"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			13015 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			8219 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		8219 8248 13015 
+	}
+	manpower=443372
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

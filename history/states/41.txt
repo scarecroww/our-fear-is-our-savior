@@ -1,0 +1,30 @@
+
+state={
+	id=41
+	name="STATE_41"
+	resources={
+		chromium=8.000
+	}
+
+	history={
+		owner = UZB
+		victory_points = {
+			1493 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = TKM
+	}
+
+	provinces={
+		756 1493 1632 1649 4482 4549 4958 5003 7560 7618 7635 7924 9605 10357 10414 10485 10742 
+	}
+	manpower=470208
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

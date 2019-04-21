@@ -1,0 +1,30 @@
+
+state={
+	id=645
+	name="STATE_645"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = YEM
+		victory_points = {
+			10840 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		1920 1973 2029 4924 4976 5074 8000 10752 10840 12821 12894 13079 
+	}
+	manpower=343276
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

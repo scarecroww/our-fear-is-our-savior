@@ -1,0 +1,27 @@
+
+state={
+	id=123
+	name="STATE_123"
+
+	history={
+		owner = X29
+		victory_points = {
+			1126 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X29
+	}
+
+	provinces={
+		1126 
+	}
+	manpower=68332
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

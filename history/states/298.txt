@@ -1,0 +1,31 @@
+
+state={
+	id=298
+	name="STATE_298"
+
+	history={
+		owner = IRE
+		victory_points = {
+			3379 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 0
+			dockyard = 1
+			3379 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = IRE
+	}
+
+	provinces={
+		276 337 385 3242 3329 3379 11257 
+	}
+	manpower=1838032
+	buildings_max_level_factor=1.000
+	state_category=city
+}

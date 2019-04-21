@@ -1,0 +1,241 @@
+﻿add_namespace = news
+
+news_event = {
+	id = news.237
+	title = "Luang Prabang formalizes alliance with China"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.238
+	title = "Luang Prabang refuses the alliance offer of China"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.239
+	title = "Nepal formalizes alliance with China"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.240
+	title = "Nepal refuses the alliance offer of China"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.241
+	title = "Austria-Hungary formalizes alliance with The United Kingdom"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.242
+	title = "Austria-Hungary refuses the alliance offer of The United Kingdom"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.243
+	title = "Netherlands formalizes alliance with The United Kingdom"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.244
+	title = "Netherlands refuses the alliance offer of The United Kingdom"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.245
+	title = "Two Sicilies formalizes alliance with The United Kingdom"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.246
+	title = "Two Sicilies refuses the alliance offer of The United Kingdom"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.247
+	title = "Austria-Hungary formalizes alliance with The United Kingdom"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.248
+	title = "Austria-Hungary refuses the alliance offer of The United Kingdom"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.249
+	title = "Belgium formalizes alliance with Germany"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.250
+	title = "Belgium refuses the alliance offer of Germany"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.251
+	title = "Two Sicilies formalizes alliance with Germany"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.252
+	title = "Two Sicilies refuses the alliance offer of Germany"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=247
+	name="STATE_247"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			9347 20 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 0
+			3326 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = ENG
+		add_core_of = GER
+		add_core_of = WGR
+		add_core_of = X12
+		add_core_of = X34
+		add_core_of = X35
+		add_core_of = X72
+	}
+
+	provinces={
+		241 336 374 3271 3326 3368 6218 6263 6298 6325 6349 9264 9347 
+	}
+	manpower=2011848
+	buildings_max_level_factor=1.000
+	state_category=city
+}

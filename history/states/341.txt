@@ -1,0 +1,35 @@
+
+state={
+	id=341
+	name="STATE_341"
+	resources={
+		aluminium=2.000
+		oil=2.000
+	}
+
+	history={
+		owner = X52
+		victory_points = {
+			1190 8 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			1190 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X52
+	}
+
+	provinces={
+		1061 1190 7020 
+	}
+	manpower=326904
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

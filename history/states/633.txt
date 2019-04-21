@@ -1,0 +1,31 @@
+
+state={
+	id=633
+	name="STATE_633"
+
+	history={
+		owner = USA
+		victory_points = {
+			13202 6 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 0
+			dockyard = 3
+			13202 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1135 1830 4833 4848 7855 7884 10679 10694 10707 12661 13069 13090 13091 13202 13203 
+	}
+	manpower=4720116
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

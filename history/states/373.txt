@@ -1,0 +1,33 @@
+
+state={
+	id=373
+	name="STATE_373"
+
+	history={
+		owner = X71
+		victory_points = {
+			12505 8 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			12505 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = CAN
+		add_core_of = ENG
+		add_core_of = QUE
+		add_core_of = X71
+	}
+
+	provinces={
+		1426 1785 4720 4787 7758 7788 12503 12505 12680 12698 
+	}
+	manpower=791044
+	buildings_max_level_factor=1.000
+	state_category=town
+}

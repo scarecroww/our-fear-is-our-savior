@@ -1,0 +1,32 @@
+
+state={
+	id=508
+	name="STATE_508"
+	resources={
+		aluminium=0.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = NIG
+		victory_points = {
+			4889 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = NIG
+	}
+
+	provinces={
+		4889 8109 10820 
+	}
+	manpower=1266928
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

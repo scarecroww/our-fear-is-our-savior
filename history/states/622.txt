@@ -1,0 +1,30 @@
+
+state={
+	id=622
+	name="STATE_622"
+	resources={
+		oil=20.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			1827 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		868 1658 1738 1809 1827 3869 6887 7684 7780 7999 9792 10535 10588 11772 12570 12627 12642 
+	}
+	manpower=2338568
+	buildings_max_level_factor=1.000
+	state_category=city
+}

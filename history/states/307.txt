@@ -1,0 +1,36 @@
+
+state={
+	id=307
+	name="STATE_307"
+	resources={
+		aluminium=6.000
+		steel=10.000
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			6831 7 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 1
+			11837 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = ITA
+		add_core_of = X84
+	}
+
+	provinces={
+		883 963 3910 3923 3966 6831 6843 6939 6979 6980 9784 9838 11803 11837 11882 11998 
+	}
+	manpower=3025496
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

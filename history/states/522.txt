@@ -1,0 +1,29 @@
+
+state={
+	id=522
+	name="STATE_522"
+
+	history={
+		owner = SPR
+		victory_points = {
+			1440 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1440 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1440 
+	}
+	manpower=826632
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

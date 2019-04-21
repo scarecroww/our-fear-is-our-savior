@@ -1,0 +1,30 @@
+
+state={
+	id=503
+	name="STATE_503"
+	resources={
+		steel=1.000
+	}
+	impassable = yes
+
+	history={
+		owner = X84
+		victory_points = {
+			10725 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1115 2068 10725 10868 
+	}
+	manpower=193184
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

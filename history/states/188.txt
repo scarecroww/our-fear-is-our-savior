@@ -1,0 +1,30 @@
+
+state={
+	id=188
+	name="STATE_188"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = ETH
+		victory_points = {
+			1984 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = ETH
+	}
+
+	provinces={
+		1984 2040 2072 4954 5041 5097 7944 
+	}
+	manpower=1836364
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

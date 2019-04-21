@@ -1,0 +1,35 @@
+
+state={
+	id=325
+	name="STATE_325"
+	resources={
+		rubber=475.000
+		steel=18.000
+		tungsten=173.000
+	}
+
+	history={
+		owner = X48
+		victory_points = {
+			10313 8 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			10313 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = X48
+	}
+
+	provinces={
+		1364 1376 1392 4310 4367 4384 4412 4424 7399 10297 10313 12215 12255 12271 
+	}
+	manpower=484272
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

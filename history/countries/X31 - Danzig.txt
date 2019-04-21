@@ -1,0 +1,160 @@
+﻿capital = 242
+set_research_slots = 3
+
+oob = "X31_OOB"
+
+# Starting tech
+set_technology = {
+}
+
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+
+    parties = {
+        absolutist = {
+            popularity = 9
+        }
+        democratic = {
+            popularity = 89
+        }
+        neutrality = {
+            popularity = 2
+        }
+    }
+    
+    ruling_party = democratic
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+add_opinion_modifier = { target = AFG modifier = negative_10 }
+add_opinion_modifier = { target = ALG modifier = positive_0 }
+add_opinion_modifier = { target = ARG modifier = positive_0 }
+add_opinion_modifier = { target = BEL modifier = negative_15 }
+add_opinion_modifier = { target = BHU modifier = negative_10 }
+add_opinion_modifier = { target = BLR modifier = positive_0 }
+add_opinion_modifier = { target = BOL modifier = positive_5 }
+add_opinion_modifier = { target = BRA modifier = negative_15 }
+add_opinion_modifier = { target = BUL modifier = positive_0 }
+add_opinion_modifier = { target = BUR modifier = negative_10 }
+add_opinion_modifier = { target = CAM modifier = negative_10 }
+add_opinion_modifier = { target = CHI modifier = positive_0 }
+add_opinion_modifier = { target = CHL modifier = positive_15 }
+add_opinion_modifier = { target = COL modifier = positive_15 }
+add_opinion_modifier = { target = CUB modifier = positive_0 }
+add_opinion_modifier = { target = DEN modifier = positive_20 }
+add_opinion_modifier = { target = ECU modifier = positive_15 }
+add_opinion_modifier = { target = EGY modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = positive_0 }
+add_opinion_modifier = { target = EST modifier = positive_0 }
+add_opinion_modifier = { target = ETH modifier = positive_5 }
+add_opinion_modifier = { target = FIN modifier = positive_0 }
+add_opinion_modifier = { target = FLA modifier = positive_0 }
+add_opinion_modifier = { target = FRA modifier = positive_0 }
+add_opinion_modifier = { target = GER modifier = positive_0 }
+add_opinion_modifier = { target = GRE modifier = positive_0 }
+add_opinion_modifier = { target = GXC modifier = positive_0 }
+add_opinion_modifier = { target = HAI modifier = positive_0 }
+add_opinion_modifier = { target = HOL modifier = positive_20 }
+add_opinion_modifier = { target = IRE modifier = positive_0 }
+add_opinion_modifier = { target = ITA modifier = negative_15 }
+add_opinion_modifier = { target = JAP modifier = negative_10 }
+add_opinion_modifier = { target = KGZ modifier = negative_10 }
+add_opinion_modifier = { target = KOR modifier = positive_0 }
+add_opinion_modifier = { target = LAO modifier = negative_10 }
+add_opinion_modifier = { target = LAT modifier = positive_0 }
+add_opinion_modifier = { target = LIB modifier = positive_30 }
+add_opinion_modifier = { target = LIT modifier = positive_0 }
+add_opinion_modifier = { target = MAD modifier = positive_0 }
+add_opinion_modifier = { target = MAN modifier = negative_10 }
+add_opinion_modifier = { target = MAR modifier = negative_10 }
+add_opinion_modifier = { target = MEX modifier = positive_15 }
+add_opinion_modifier = { target = MNT modifier = positive_5 }
+add_opinion_modifier = { target = NEP modifier = positive_0 }
+add_opinion_modifier = { target = NIG modifier = negative_10 }
+add_opinion_modifier = { target = OMA modifier = positive_0 }
+add_opinion_modifier = { target = PAK modifier = positive_0 }
+add_opinion_modifier = { target = PAN modifier = positive_0 }
+add_opinion_modifier = { target = PAR modifier = positive_0 }
+add_opinion_modifier = { target = PER modifier = negative_10 }
+add_opinion_modifier = { target = POL modifier = positive_0 }
+add_opinion_modifier = { target = POR modifier = positive_5 }
+add_opinion_modifier = { target = PRU modifier = positive_5 }
+add_opinion_modifier = { target = RAJ modifier = positive_0 }
+add_opinion_modifier = { target = ROM modifier = positive_5 }
+add_opinion_modifier = { target = SCO modifier = positive_0 }
+add_opinion_modifier = { target = SER modifier = positive_5 }
+add_opinion_modifier = { target = SIA modifier = negative_10 }
+add_opinion_modifier = { target = SLO modifier = positive_0 }
+add_opinion_modifier = { target = SOV modifier = positive_0 }
+add_opinion_modifier = { target = SPR modifier = positive_0 }
+add_opinion_modifier = { target = SWE modifier = positive_0 }
+add_opinion_modifier = { target = SWI modifier = positive_10 }
+add_opinion_modifier = { target = TIB modifier = negative_10 }
+add_opinion_modifier = { target = TUN modifier = positive_0 }
+add_opinion_modifier = { target = TUR modifier = negative_10 }
+add_opinion_modifier = { target = U78 modifier = positive_15 }
+add_opinion_modifier = { target = UKR modifier = positive_0 }
+add_opinion_modifier = { target = URG modifier = positive_0 }
+add_opinion_modifier = { target = USA modifier = positive_10 }
+add_opinion_modifier = { target = UZB modifier = negative_10 }
+add_opinion_modifier = { target = VEN modifier = positive_15 }
+add_opinion_modifier = { target = WLL modifier = positive_0 }
+add_opinion_modifier = { target = X00 modifier = negative_10 }
+add_opinion_modifier = { target = X03 modifier = negative_10 }
+add_opinion_modifier = { target = X06 modifier = negative_10 }
+add_opinion_modifier = { target = X08 modifier = positive_0 }
+add_opinion_modifier = { target = X09 modifier = negative_10 }
+add_opinion_modifier = { target = X10 modifier = positive_0 }
+add_opinion_modifier = { target = X13 modifier = negative_10 }
+add_opinion_modifier = { target = X18 modifier = positive_0 }
+add_opinion_modifier = { target = X21 modifier = positive_0 }
+add_opinion_modifier = { target = X22 modifier = positive_0 }
+add_opinion_modifier = { target = X23 modifier = positive_0 }
+add_opinion_modifier = { target = X24 modifier = positive_0 }
+add_opinion_modifier = { target = X25 modifier = positive_0 }
+add_opinion_modifier = { target = X26 modifier = positive_0 }
+add_opinion_modifier = { target = X27 modifier = positive_0 }
+add_opinion_modifier = { target = X28 modifier = positive_0 }
+add_opinion_modifier = { target = X29 modifier = positive_0 }
+add_opinion_modifier = { target = X33 modifier = negative_10 }
+add_opinion_modifier = { target = X41 modifier = negative_10 }
+add_opinion_modifier = { target = X42 modifier = negative_10 }
+add_opinion_modifier = { target = X44 modifier = negative_10 }
+add_opinion_modifier = { target = X46 modifier = positive_0 }
+add_opinion_modifier = { target = X48 modifier = positive_0 }
+add_opinion_modifier = { target = X50 modifier = positive_0 }
+add_opinion_modifier = { target = X51 modifier = positive_30 }
+add_opinion_modifier = { target = X52 modifier = positive_0 }
+add_opinion_modifier = { target = X62 modifier = negative_10 }
+add_opinion_modifier = { target = X71 modifier = positive_0 }
+add_opinion_modifier = { target = X73 modifier = positive_0 }
+add_opinion_modifier = { target = X75 modifier = negative_10 }
+add_opinion_modifier = { target = X84 modifier = negative_15 }
+add_opinion_modifier = { target = X86 modifier = negative_10 }
+add_opinion_modifier = { target = X89 modifier = negative_10 }
+add_opinion_modifier = { target = X91 modifier = positive_0 }
+add_opinion_modifier = { target = X97 modifier = positive_0 }
+add_opinion_modifier = { target = X99 modifier = positive_0 }
+add_opinion_modifier = { target = YEM modifier = negative_10 }
+add_opinion_modifier = { target = YUN modifier = positive_0 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_north_german
+}
+create_country_leader = {
+    name = "Alexander von Fritsch"
+    desc = "POLITICS_ALEXANDER_VON FRITSCH_DESC"
+    picture = "gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+    expire = "1965.1.1"
+    ideology = conservatism
+    traits = {
+    }
+}

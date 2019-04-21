@@ -1,0 +1,33 @@
+
+state={
+	id=506
+	name="STATE_506"
+	resources={
+		aluminium=2.000
+		rubber=2.000
+		steel=2.000
+	}
+
+	history={
+		owner = NIG
+		victory_points = {
+			1891 8 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = NIG
+		add_core_of = X25
+	}
+
+	provinces={
+		1891 1932 12817 
+	}
+	manpower=1424300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

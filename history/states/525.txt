@@ -1,0 +1,32 @@
+
+state={
+	id=525
+	name="STATE_525"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			2115 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			2115 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		2115 
+	}
+	manpower=142096
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

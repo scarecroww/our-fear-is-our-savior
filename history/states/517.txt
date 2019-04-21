@@ -1,0 +1,34 @@
+
+state={
+	id=517
+	name="STATE_517"
+	resources={
+		chromium=6.000
+		steel=4.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			7419 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1224 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = PHI
+	}
+
+	provinces={
+		1224 1261 1311 1340 1368 4269 4373 4429 7307 7385 7419 7423 10145 10186 10302 12112 12118 12153 
+	}
+	manpower=561868
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

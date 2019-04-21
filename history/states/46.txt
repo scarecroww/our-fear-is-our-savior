@@ -1,0 +1,35 @@
+
+state={
+	id=46
+	name="STATE_46"
+	resources={
+		aluminium=1.000
+		oil=3.000
+		steel=4.000
+	}
+
+	history={
+		owner = BUL
+		victory_points = {
+			9771 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			9783 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		649 793 3796 3819 3952 6842 9610 9612 9769 9771 9783 11754 
+	}
+	manpower=1419716
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

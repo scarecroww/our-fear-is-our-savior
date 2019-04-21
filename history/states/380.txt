@@ -1,0 +1,27 @@
+
+state={
+	id=380
+	name="STATE_380"
+
+	history={
+		owner = PER
+		victory_points = {
+			4609 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		4580 4609 4637 7602 10385 10768 
+	}
+	manpower=729124
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

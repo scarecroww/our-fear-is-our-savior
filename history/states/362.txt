@@ -1,0 +1,35 @@
+
+state={
+	id=362
+	name="STATE_362"
+	resources={
+		oil=1.000
+		steel=6.000
+	}
+
+	history={
+		owner = HOL
+		victory_points = {
+			391 11 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 0
+			dockyard = 2
+			9498 = {
+				naval_base = 10
+			}
+			air_base = 7
+
+		}
+		add_core_of = HOL
+	}
+
+	provinces={
+		68 391 3211 3314 6241 9431 9498 
+	}
+	manpower=2359924
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

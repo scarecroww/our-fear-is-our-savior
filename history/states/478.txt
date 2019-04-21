@@ -1,0 +1,31 @@
+
+state={
+	id=478
+	name="STATE_478"
+	resources={
+		aluminium=0.000
+		rubber=2.000
+		steel=0.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			4997 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		4997 5028 
+	}
+	manpower=628472
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

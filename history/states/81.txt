@@ -1,0 +1,35 @@
+
+state={
+	id=81
+	name="STATE_81"
+	resources={
+		oil=19.000
+		steel=2.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			12845 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			10494 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = COL
+		add_core_of = U77
+	}
+
+	provinces={
+		1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 
+	}
+	manpower=2190328
+	buildings_max_level_factor=1.000
+	state_category=town
+}

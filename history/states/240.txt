@@ -1,0 +1,35 @@
+
+state={
+	id=240
+	name="STATE_240"
+	resources={
+		aluminium=58.000
+		oil=1.000
+		steel=175.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			9570 8 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 9
+			arms_factory = 2
+			air_base = 3
+
+		}
+		add_core_of = GER
+		add_core_of = POL
+		add_core_of = WGR
+		add_core_of = X78
+	}
+
+	provinces={
+		479 506 552 3283 3438 3485 3510 3545 6462 6464 6512 6534 6595 9457 9470 9511 9570 11467 11517 13205 
+	}
+	manpower=6185240
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

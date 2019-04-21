@@ -1,0 +1,33 @@
+
+state={
+	id=44
+	name="STATE_44"
+	resources={
+		aluminium=48.000
+		chromium=102.000
+	}
+
+	history={
+		owner = BUL
+		victory_points = {
+			3882 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = BUL
+		add_core_of = SER
+		add_core_of = YUG
+	}
+
+	provinces={
+		833 867 907 974 3833 3865 3882 6886 11832 11856 
+	}
+	manpower=939152
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

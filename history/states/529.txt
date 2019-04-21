@@ -1,0 +1,32 @@
+
+state={
+	id=529
+	name="STATE_529"
+	resources={
+		chromium=2.000
+		oil=1.000
+		rubber=0.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			12806 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = EGY
+	}
+
+	provinces={
+		1914 2088 4918 7925 10743 10784 10795 12800 12806 12862 12887 
+	}
+	manpower=1562772
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

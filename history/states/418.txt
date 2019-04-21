@@ -1,0 +1,32 @@
+
+state={
+	id=418
+	name="STATE_418"
+	resources={
+		chromium=1.000
+		oil=54.000
+	}
+
+	history={
+		owner = ROM
+		victory_points = {
+			9617 14 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 10
+
+		}
+		add_core_of = ROM
+		add_core_of = X95
+	}
+
+	provinces={
+		637 660 674 818 3630 3636 3639 3645 3663 6652 6658 6667 6677 6695 9617 9651 11588 11603 11605 11619 11636 11657 
+	}
+	manpower=2195332
+	buildings_max_level_factor=1.000
+	state_category=town
+}

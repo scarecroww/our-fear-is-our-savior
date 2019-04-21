@@ -1,0 +1,36 @@
+
+state={
+	id=544
+	name="STATE_544"
+	resources={
+		aluminium=50.000
+		chromium=16.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			9809 8 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			9809 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_core_of = MNT
+		add_core_of = TUR
+		add_core_of = YUG
+	}
+
+	provinces={
+		937 3922 6913 9809 11858 
+	}
+	manpower=557060
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=42
+	name="STATE_42"
+	resources={
+		oil=28.000
+	}
+
+	history={
+		owner = BUL
+		victory_points = {
+			657 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			11597 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = BUL
+		add_core_of = ROM
+		add_core_of = X95
+	}
+
+	provinces={
+		657 687 3076 9614 9635 11597 
+	}
+	manpower=702160
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

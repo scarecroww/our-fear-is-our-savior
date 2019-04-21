@@ -1,0 +1,34 @@
+
+state={
+	id=627
+	name="STATE_627"
+	resources={
+		aluminium=44.000
+		steel=136.000
+		tungsten=161.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			4607 11 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 3
+			air_base = 7
+
+		}
+		add_core_of = MEX
+		add_core_of = USA
+		add_core_of = X30
+	}
+
+	provinces={
+		1663 1740 1756 1862 4521 4607 4668 4736 4742 4799 4816 4865 7756 7764 7818 7827 7879 10422 10582 10591 10651 10662 12134 12399 12425 12573 12699 
+	}
+	manpower=4089884
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

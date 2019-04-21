@@ -1,0 +1,36 @@
+
+state={
+	id=497
+	name="STATE_497"
+	resources={
+		rubber=238.000
+		steel=10.000
+		tungsten=87.000
+	}
+
+	history={
+		owner = SIA
+		victory_points = {
+			12144 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12144 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = SIA
+		add_core_of = X48
+	}
+
+	provinces={
+		1291 1348 4355 7329 10227 12144 12199 
+	}
+	manpower=309136
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

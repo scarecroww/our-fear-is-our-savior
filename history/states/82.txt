@@ -1,0 +1,36 @@
+
+state={
+	id=82
+	name="STATE_82"
+	resources={
+		oil=1.000
+		steel=2.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			12872 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			7991 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = COL
+		add_core_of = U77
+	}
+
+	provinces={
+		7936 7991 10846 12872 
+	}
+	manpower=1953320
+	buildings_max_level_factor=1.000
+	state_category=town
+}

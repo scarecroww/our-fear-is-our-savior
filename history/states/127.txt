@@ -1,0 +1,31 @@
+
+state={
+	id=127
+	name="STATE_127"
+
+	history={
+		owner = DEN
+		victory_points = {
+			6287 8 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			6287 = {
+				naval_base = 4
+			}
+			air_base = 6
+
+		}
+		add_core_of = DEN
+		add_core_of = SCA
+	}
+
+	provinces={
+		3260 3305 3325 3374 6287 6361 6393 
+	}
+	manpower=816856
+	buildings_max_level_factor=1.000
+	state_category=town
+}

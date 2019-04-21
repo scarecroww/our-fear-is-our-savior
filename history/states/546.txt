@@ -1,0 +1,34 @@
+
+state={
+	id=546
+	name="STATE_546"
+	resources={
+		chromium=84.000
+		steel=20.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			9833 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			9833 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		849 922 3879 3893 6895 9833 11829 11842 
+	}
+	manpower=1357360
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

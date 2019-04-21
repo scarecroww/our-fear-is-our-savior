@@ -1,0 +1,27 @@
+
+state={
+	id=5
+	name="STATE_5"
+
+	history={
+		owner = ALG
+		victory_points = {
+			5053 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ALG
+	}
+
+	provinces={
+		1128 1967 4018 5053 7033 7149 9960 
+	}
+	manpower=243764
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

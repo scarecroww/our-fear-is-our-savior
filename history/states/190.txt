@@ -1,0 +1,30 @@
+
+state={
+	id=190
+	name="STATE_190"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = ETH
+		victory_points = {
+			10734 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ETH
+	}
+
+	provinces={
+		2009 7912 10734 12856 
+	}
+	manpower=1032528
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

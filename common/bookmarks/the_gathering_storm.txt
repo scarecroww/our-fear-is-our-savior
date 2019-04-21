@@ -1,0 +1,66 @@
+bookmarks = {
+	bookmark = {
+		name = GATHERING_STORM_NAME
+		desc = GATHERING_STORM_DESC
+		date = 1936.1.1.12
+		picture = GFX_select_date_1936
+		default_country = "---"
+		default = yes
+		GER= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = absolutist
+			ideas = { 
+			GER_reichswehr_crisis 
+			GER_economy_in_decline
+			GER_unpopular_government
+			}
+		}
+		USA= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {  }
+		}
+		FRA= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = absolutist
+			ideas = { 
+			FRA_return_of_an_empire 
+			FRA_fascists_in_military
+			}
+		}
+		SWE= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascist
+			ideas = {  }
+		}
+		SOV= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {  }
+		}
+		CHI= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {  }
+		}
+		ENG= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {  }
+		}
+		"---" = {
+            history = "OTHER_GATHERING_STORM_DESC"
+        }
+        SPR = {
+            history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascism
+			minor = yes
+			ideas = {  
+			SPR_wounded_bull
+			}
+        }
+effect = {
+randomize_weather = 22345 # <-Obligatory in every bookmark !
+#123 = { rain_light = yes }
+	}
+}

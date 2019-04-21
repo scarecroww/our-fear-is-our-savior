@@ -1,0 +1,26 @@
+
+state={
+	id=472
+	name="STATE_472"
+
+	history={
+		owner = SOV
+		victory_points = {
+			1473 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1473 3123 4897 4978 
+	}
+	manpower=333468
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

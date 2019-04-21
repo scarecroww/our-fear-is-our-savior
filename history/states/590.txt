@@ -1,0 +1,27 @@
+
+state={
+	id=590
+	name="STATE_590"
+
+	history={
+		owner = USA
+		victory_points = {
+			4723 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1815 4610 4723 4794 4820 7688 7814 7888 10640 10711 12561 12633 12651 
+	}
+	manpower=1943344
+	buildings_max_level_factor=1.000
+	state_category=town
+}

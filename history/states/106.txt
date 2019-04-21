@@ -1,0 +1,31 @@
+
+state={
+	id=106
+	name="STATE_106"
+	resources={
+		rubber=6.000
+		tungsten=12.000
+	}
+
+	history={
+		owner = X26
+		victory_points = {
+			12989 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = X26
+	}
+
+	provinces={
+		3854 7088 7133 8223 12929 12989 
+	}
+	manpower=2735860
+	buildings_max_level_factor=1.000
+	state_category=city
+}

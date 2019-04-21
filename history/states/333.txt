@@ -1,0 +1,33 @@
+
+state={
+	id=333
+	name="STATE_333"
+	resources={
+		oil=0.000
+		steel=1.000
+	}
+
+	history={
+		owner = X50
+		victory_points = {
+			9427 13 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = POL
+		add_core_of = X50
+		add_core_of = X77
+	}
+
+	provinces={
+		9427 
+	}
+	manpower=699500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

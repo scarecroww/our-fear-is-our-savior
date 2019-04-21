@@ -1,0 +1,33 @@
+
+state={
+	id=132
+	name="STATE_132"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = EGY
+		victory_points = {
+			9989 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			11967 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = EGY
+	}
+
+	provinces={
+		992 5078 7079 7117 7148 9989 10061 11910 11967 12033 12091 
+	}
+	manpower=452004
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

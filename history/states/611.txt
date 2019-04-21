@@ -1,0 +1,31 @@
+
+state={
+	id=611
+	name="STATE_611"
+
+	history={
+		owner = USA
+		victory_points = {
+			12384 9 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 9
+			arms_factory = 2
+			dockyard = 1
+			11975 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		638 968 1433 1480 1485 1547 3994 4491 4653 5090 7012 7118 7134 7202 7527 7583 7612 9949 9996 10029 10047 10394 10437 10465 10492 11927 11975 12325 12384 12470 12498 
+	}
+	manpower=8823672
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

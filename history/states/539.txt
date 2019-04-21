@@ -1,0 +1,35 @@
+
+state={
+	id=539
+	name="STATE_539"
+	resources={
+		aluminium=2.000
+		rubber=6.000
+	}
+
+	history={
+		owner = X89
+		victory_points = {
+			7402 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			7402 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X89
+	}
+
+	provinces={
+		1238 1321 7402 10130 
+	}
+	manpower=1311412
+	buildings_max_level_factor=1.000
+	state_category=town
+}

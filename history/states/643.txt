@@ -1,0 +1,29 @@
+
+state={
+	id=643
+	name="STATE_643"
+
+	history={
+		owner = X97
+		victory_points = {
+			1464 8 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = LAO
+		add_core_of = SIA
+		add_core_of = X97
+	}
+
+	provinces={
+		1362 1390 1464 1507 10330 10356 10456 12332 
+	}
+	manpower=504592
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=19
+	name="STATE_19"
+
+	history={
+		owner = X09
+		victory_points = {
+			11995 8 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X09
+	}
+
+	provinces={
+		2105 11995 
+	}
+	manpower=549276
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

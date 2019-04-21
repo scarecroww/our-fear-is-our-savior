@@ -1,0 +1,31 @@
+
+state={
+	id=324
+	name="STATE_324"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = X46
+		victory_points = {
+			10866 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X46
+	}
+
+	provinces={
+		10866 
+	}
+	manpower=180952
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

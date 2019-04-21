@@ -1,0 +1,34 @@
+
+state={
+	id=135
+	name="STATE_135"
+	resources={
+		aluminium=2.000
+		steel=12.000
+	}
+
+	history={
+		owner = EGY
+		victory_points = {
+			5069 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			5069 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = EGY
+	}
+
+	provinces={
+		1028 1064 1151 4068 4910 5069 7073 7156 11999 12002 12071 12889 
+	}
+	manpower=818112
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

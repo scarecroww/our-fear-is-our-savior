@@ -1,0 +1,28 @@
+
+state={
+	id=115
+	name="STATE_115"
+
+	history={
+		owner = X27
+		victory_points = {
+			13074 8 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = ALG
+		add_core_of = X27
+	}
+
+	provinces={
+		3991 7008 12018 13074 
+	}
+	manpower=137388
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

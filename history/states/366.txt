@@ -1,0 +1,33 @@
+
+state={
+	id=366
+	name="STATE_366"
+	resources={
+		rubber=16.000
+	}
+
+	history={
+		owner = HOL
+		victory_points = {
+			4273 6 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			7321 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = X05
+	}
+
+	provinces={
+		1298 1339 1355 4273 4301 4358 7293 7321 10175 10191 10219 12151 12162 12206 12219 12234 
+	}
+	manpower=2404068
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

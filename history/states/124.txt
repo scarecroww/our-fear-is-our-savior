@@ -1,0 +1,28 @@
+
+state={
+	id=124
+	name="STATE_124"
+	impassable = yes
+
+	history={
+		owner = X29
+		victory_points = {
+			1958 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X29
+	}
+
+	provinces={
+		1095 1958 2049 7041 8088 12711 
+	}
+	manpower=188448
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

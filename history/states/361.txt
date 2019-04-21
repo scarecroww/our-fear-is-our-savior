@@ -1,0 +1,30 @@
+
+state={
+	id=361
+	name="STATE_361"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = NEP
+		victory_points = {
+			4987 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = NEP
+	}
+
+	provinces={
+		4386 4987 5310 7374 10825 10910 12892 
+	}
+	manpower=436012
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

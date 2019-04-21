@@ -1,0 +1,28 @@
+
+state={
+	id=454
+	name="STATE_454"
+
+	history={
+		owner = SOV
+		victory_points = {
+			1391 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = KGZ
+		add_core_of = SOV
+	}
+
+	provinces={
+		1229 1309 1363 1391 1418 1662 1694 4369 4488 4578 4581 4638 4670 4685 4850 7243 7298 7357 7486 7600 7657 7708 7741 7874 10202 10353 10452 12185 12257 12285 12329 12471 12616 12619 
+	}
+	manpower=568580
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

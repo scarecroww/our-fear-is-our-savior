@@ -1,0 +1,36 @@
+
+state={
+	id=109
+	name="STATE_109"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = X26
+		victory_points = {
+			5210 8 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			8183 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = OMA
+		add_core_of = X22
+		add_core_of = X26
+		add_core_of = X99
+	}
+
+	provinces={
+		5196 5210 8183 8205 12911 
+	}
+	manpower=1139380
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

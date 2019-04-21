@@ -1,0 +1,35 @@
+
+state={
+	id=79
+	name="STATE_79"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			7630 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			4611 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = COL
+		add_core_of = PAN
+		add_core_of = U77
+	}
+
+	provinces={
+		1633 4611 4624 7630 10482 
+	}
+	manpower=1270360
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

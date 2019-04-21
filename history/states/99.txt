@@ -1,0 +1,35 @@
+
+state={
+	id=99
+	name="STATE_99"
+	resources={
+		aluminium=3.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			10803 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			10803 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = X25
+	}
+
+	provinces={
+		5013 8065 10803 
+	}
+	manpower=787524
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

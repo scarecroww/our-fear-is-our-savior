@@ -1,0 +1,27 @@
+
+state={
+	id=614
+	name="STATE_614"
+
+	history={
+		owner = USA
+		victory_points = {
+			6971 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 0
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		801 3941 3975 4627 6850 6958 6971 7466 7588 7646 9923 10441 11888 
+	}
+	manpower=2179944
+	buildings_max_level_factor=1.000
+	state_category=town
+}

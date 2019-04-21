@@ -1,0 +1,30 @@
+
+state={
+	id=151
+	name="STATE_151"
+
+	history={
+		owner = ENG
+		victory_points = {
+			4135 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			4135 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		4135 
+	}
+	manpower=115816
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

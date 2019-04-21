@@ -1,0 +1,31 @@
+
+state={
+	id=378
+	name="STATE_378"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = X75
+		victory_points = {
+			10772 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X75
+	}
+
+	provinces={
+		1107 2002 4979 7903 8007 8022 8106 9084 10066 10139 10173 10729 10772 10843 10887 10898 12005 12792 12822 
+	}
+	manpower=7647572
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

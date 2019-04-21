@@ -1,0 +1,31 @@
+
+state={
+	id=250
+	name="STATE_250"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			6583 9 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 2
+			air_base = 6
+
+		}
+		add_core_of = GER
+		add_core_of = LUX
+	}
+
+	provinces={
+		6583 
+	}
+	manpower=577120
+	buildings_max_level_factor=1.000
+	state_category=town
+}

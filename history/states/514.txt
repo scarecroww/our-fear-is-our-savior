@@ -1,0 +1,33 @@
+
+state={
+	id=514
+	name="STATE_514"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			1048 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			1048 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		875 879 1048 1178 3810 3871 3940 4080 4182 6744 7098 7183 7198 9815 9891 10094 11749 12070 
+	}
+	manpower=2202332
+	buildings_max_level_factor=1.000
+	state_category=town
+}

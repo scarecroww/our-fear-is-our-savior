@@ -1,0 +1,30 @@
+
+state={
+	id=536
+	name="STATE_536"
+	resources={
+		aluminium=29.000
+	}
+
+	history={
+		owner = SWI
+		victory_points = {
+			663 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 1
+
+		}
+		add_core_of = SWI
+	}
+
+	provinces={
+		636 658 661 663 3641 3660 3662 9600 11601 11604 11623 
+	}
+	manpower=2103676
+	buildings_max_level_factor=1.000
+	state_category=city
+}

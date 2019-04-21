@@ -1,0 +1,29 @@
+
+state={
+	id=415
+	name="STATE_415"
+
+	history={
+		owner = POR
+		victory_points = {
+			13072 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			13072 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		13072 
+	}
+	manpower=122036
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=488
+	name="STATE_488"
+	resources={
+		aluminium=0.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			4952 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			8034 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = X25
+	}
+
+	provinces={
+		4952 8034 10831 
+	}
+	manpower=2785952
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

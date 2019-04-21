@@ -1,0 +1,30 @@
+
+state={
+	id=500
+	name="STATE_500"
+
+	history={
+		owner = X84
+		victory_points = {
+			7979 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			8038 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X84
+	}
+
+	provinces={
+		5012 7979 8038 10875 
+	}
+	manpower=362544
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

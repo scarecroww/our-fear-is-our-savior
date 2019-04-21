@@ -1,0 +1,31 @@
+
+state={
+	id=469
+	name="STATE_469"
+	resources={
+		steel=1.000
+	}
+	impassable = yes
+
+	history={
+		owner = SOV
+		victory_points = {
+			10104 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		1057 1140 1994 4191 7985 10104 10754 10785 12866 
+	}
+	manpower=210556
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

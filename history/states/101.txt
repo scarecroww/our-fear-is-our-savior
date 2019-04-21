@@ -1,0 +1,32 @@
+
+state={
+	id=101
+	name="STATE_101"
+	resources={
+		rubber=4.000
+		steel=2.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			7959 8 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = LIB
+		add_core_of = X25
+	}
+
+	provinces={
+		7959 8006 
+	}
+	manpower=926744
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

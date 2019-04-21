@@ -1,0 +1,32 @@
+
+state={
+	id=85
+	name="STATE_85"
+
+	history={
+		owner = X18
+		victory_points = {
+			9940 8 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			12058 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = EGY
+		add_core_of = GRE
+		add_core_of = X18
+	}
+
+	provinces={
+		1164 4170 9940 12058 
+	}
+	manpower=211888
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

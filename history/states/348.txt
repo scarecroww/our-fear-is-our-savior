@@ -1,0 +1,31 @@
+
+state={
+	id=348
+	name="STATE_348"
+	resources={
+		tungsten=5.000
+	}
+
+	history={
+		owner = X62
+		victory_points = {
+			12829 8 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = RAJ
+		add_core_of = X62
+	}
+
+	provinces={
+		1199 2092 12829 
+	}
+	manpower=337964
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

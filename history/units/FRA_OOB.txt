@@ -1,0 +1,1769 @@
+﻿start_equipment_factor = 0
+division_template = {
+	name = "Armored Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Assault Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		light_armor = { x = 4 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Assault Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+		light_armor = { x = 2 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Light Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Light Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+### No BHU air forces ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "FRA"
+		}
+		requested_factories = 5
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "FRA"
+		}
+		requested_factories = 2
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "FRA"
+		}
+		requested_factories = 5
+		progress = 0.88
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "FRA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "FRA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = convoy_1
+			creator = "FRA"
+		}
+		requested_factories = 10
+		progress = 0.50
+		amount = 100
+	}
+}
+units = {
+	division = {
+		name = "1. Assault Division"
+		location = 3918
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Assault Division"
+		location = 3918
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 3918
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Brigade"
+		location = 3918
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Division"
+		location = 3918
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 11279
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 11279
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Division"
+		location = 11279
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Division"
+		location = 11279
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 9898
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 9898
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 9898
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Brigade"
+		location = 9898
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 9898
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Cavalry Brigade"
+		location = 9898
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Assault Division"
+		location = 6446
+		division_template = "Assault Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 6446
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 6446
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 6446
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 6446
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Cavalry Brigade"
+		location = 6446
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 11805
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 11805
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3. Infantry Division"
+		location = 11805
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Division"
+		location = 11805
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 3816
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Division"
+		location = 3816
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Light Infantry Division"
+		location = 3816
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Division"
+		location = 3816
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 9495
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 9495
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Division"
+		location = 9495
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 9495
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 9495
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Cavalry Brigade"
+		location = 9495
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 3273
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 3273
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Division"
+		location = 3273
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 3273
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 3273
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Cavalry Brigade"
+		location = 3273
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Assault Division"
+		location = 3369
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 3369
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 3369
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 3369
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 3369
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Cavalry Brigade"
+		location = 3369
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Assault Division"
+		location = 6759
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Division"
+		location = 6759
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 6759
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 6759
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Assault Division"
+		location = 11506
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Assault Division"
+		location = 11506
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 11506
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Division"
+		location = 11506
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 11506
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Division"
+		location = 11506
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Assault Division"
+		location = 6504
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Assault Division"
+		location = 6504
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Division"
+		location = 6504
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 6504
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Assault Division"
+		location = 1096
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Assault Division"
+		location = 1096
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3. Assault Division"
+		location = 1096
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 1096
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Brigade"
+		location = 1096
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 1096
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Cavalry Brigade"
+		location = 1096
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Assault Division"
+		location = 3516
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 3516
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Light Infantry Brigade"
+		location = 3516
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 3516
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 4245
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 4245
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3. Infantry Division"
+		location = 4245
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 4245
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Cavalry Brigade"
+		location = 4245
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Assault Division"
+		location = 11604
+		division_template = "Assault Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Infantry Division"
+		location = 11604
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Division"
+		location = 3768
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Light Infantry Division"
+		location = 3768
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3. Light Infantry Division"
+		location = 3768
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 3768
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Light Infantry Brigade"
+		location = 3768
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 3768
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2. Cavalry Brigade"
+		location = 3768
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	navy = {
+		name = "Transportflotte"
+		base = 10149
+		location = 10149
+		ship = {
+			name = "Impétueuse"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Audacieuse"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Souveraine"
+			definition = destroyer
+			equipment = {
+				destroyer_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+	}
+	navy = {
+		name = "4. Flotte"
+		base = 11420
+		location = 11420
+		ship = {
+			name = "Amiral Duperré"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Richelieu"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Louis XIV"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Alsace"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Bourgogne"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Poitou"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Calais"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Rouen"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Brest"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Petain"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Napoléon"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Poincare"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Dunkerque"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Strasbourg"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Clemenceau"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Dévastation"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Courbet"
+			definition = battleship
+			equipment = {
+				battleship_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Mirebeau"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Iéna"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "République"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Patrie"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Brennus"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Carnot"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Jauréguiberry"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Bouvet"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Charlemagne"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "St Louis"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Charles Martel"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Masséna"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Gaulois"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Suffren"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Liberté"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Justice"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Vérité"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Démocratie"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Danton"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Voltaire"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Diderot"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Condorcet"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "1. Plymouths Kampfschiff"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "1. Amienss Kampfschiff"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "2. Caens Kampfschiff"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "1. Brests Kampfschiff"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "1. La Roches Kampfschiff"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "1. La Rochelles Kampfschiff"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "2. Paus Kampfschiff"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "1. Perpignans Kampfschiff"
+			definition = heavy_cruiser
+			equipment = {
+				heavy_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Maurice de Saxe"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Richemont"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Vercingetorix"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Ney"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Dunois"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Leger"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Vauban"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Conde"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Turenne"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Clovis"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Montebello"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Navarin"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Souverain"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Ulm"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Wagram"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Arcole"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Friedland"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Impérial"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Tilsitt"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Austerlitz"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Algésiras"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Ardente"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Eylau"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Victoire"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Jena"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Guerrière"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Auerstadt"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Téméraire"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Marengo"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Persévérante"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Glorieuse"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Vigilant"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Gracieuse"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Tenace"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Élan"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Duguay Trouin"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Lamotte-Picquet"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Toulon"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Bellone"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Tigre"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+		ship = {
+			name = "Triomphant"
+			definition = light_cruiser
+			equipment = {
+				light_cruiser_1 = {
+					amount = 1
+					owner = FRA
+				}
+			}
+		}
+	}
+}
