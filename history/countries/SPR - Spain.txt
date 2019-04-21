@@ -164,11 +164,11 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.94
 create_country_leader = {
-    name = "Antonio López"
-    desc = "POLITICS_ANTONIO_LóPEZ_DESC"
-    picture = "GFX_POR_Francisco_Preto"
+    name = "Jose Antonio Primo De Rivera"
+    desc = "POLITICS_JOSE_DE_RIVERA_DESC"
+    picture = "jose_antonio_primo_de_rivera.dds"
     expire = "1965.1.1"
-    ideology = fascism_ideology
+    ideology = falangism
     traits = {
     }
 }
