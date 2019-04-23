@@ -1,0 +1,233 @@
+focus_tree = {
+	id = kaiserreich_focus
+
+	country = {
+        factor = 0
+        
+        modifier = {
+            add = 20
+            
+            tag = GER
+        }
+    }
+
+    continuous_focus_position = { x = 50 y = 4000 }
+
+    focus = {
+		id = GER_germany_above_all
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 10
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+
+	focus = {
+		id = GER_regime_change
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 10
+		y = 1
+		relative_position_id = GER_germany_above_all
+		prerequisite = { focus = GER_germany_above_all }
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+			add_popularity = {
+                ideology = fascism
+                popularity = 0.08
+            }
+
+            add_popularity = {
+                ideology = communism
+                popularity = 0.08
+            }
+
+            set_country_flag = germany_regime_change
+		}
+	}
+
+	focus = {
+		id = GER_volk
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -3
+		y = 1
+		relative_position_id = GER_regime_change
+		prerequisite = { focus = GER_regime_change }
+		mutually_exclusive = { focus = GER_gesellschaft }
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+			custom_effect_tooltip = 1_GER_mod_tt
+
+            set_country_flag = germany_chose_fascists
+		}
+	}
+
+	focus = {
+		id = GER_gesellschaft
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 3
+		y = 1
+		relative_position_id = GER_regime_change
+		prerequisite = { focus = GER_regime_change }
+		mutually_exclusive = { focus = GER_volk }
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+			custom_effect_tooltip = 2_GER_mod_tt
+
+            set_country_flag = germany_chose_communists
+		}
+	}
+
+	focus = {
+		id = GER_gather_support
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 2
+		relative_position_id = GER_regime_change
+		prerequisite = { 
+		focus = GER_gesellschaft 
+		focus = GER_volk
+		}
+		cost = 3
+		available_if_capitulated = yes
+		completion_reward = {
+		    custom_effect_tooltip = 3_GER_mod_tt
+
+			if = {
+			    limit = {
+			       has_country_flag = germany_chose_communists
+			    }
+
+			    add_ideas = GER_gather_support_com
+			}
+
+			if = {
+			    limit = {
+			       has_country_flag = germany_chose_fascists
+			    }
+
+			    add_ideas = GER_gather_support_fas
+			}
+		}
+	}
+
+	focus = {
+		id = GER_rearm
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		relative_position_id = GER_gather_support
+		prerequisite = { focus = GER_gather_support }
+		cost = 3
+		available_if_capitulated = yes
+		completion_reward = {
+		    custom_effect_tooltip = 4_GER_mod_tt
+
+		    set_country_flag = germany_opposition_rearmed
+		}
+	}
+
+	focus = {
+		id = GER_day_of_honor
+		icon = GFX_focus_ger_oppose_hitler
+		x = 0
+		y = 2
+		relative_position_id = GER_gather_support
+		prerequisite = { focus = GER_rearm }
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = {
+		    custom_effect_tooltip = 5_GER_mod_tt
+
+		    add_war_support = 0.1
+
+		    add_stability = -0.35
+		    
+		    add_political_power = 125
+
+		    hidden_effect = {
+		        country_event = kaiserreich.1
+		    }
+		}
+	}
+
+	focus = {
+		id = GER_rebuild_the_country
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 3
+		relative_position_id = GER_gather_support
+		prerequisite = { focus = GER_day_of_honor }
+		cost = 7
+		available_if_capitulated = yes
+		available = {
+		    has_civil_war = no
+		    NOT = {
+		        has_government = absolutist
+		    }
+		}
+		completion_reward = {
+		    add_ideas = GER_rebuild_the_nation_idea
+
+		    add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = GER_DAP_takes_control
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -9
+		y = 1
+		relative_position_id = GER_rebuild_the_country
+		prerequisite = { focus = GER_rebuild_the_country }
+		prerequisite = { focus = GER_volk }
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+		    set_politics = {
+                parties = {
+		            democratic = { 
+			            popularity = 10
+		            }
+
+		            fascism = {
+			            popularity = 67
+		            }
+		
+		            communism = {
+			            popularity = 13
+		            }
+		
+		            absolutist = { 
+			            popularity = 10
+		            }
+	            }
+	
+	            ruling_party = fascism
+            }
+		}
+	}
+
+	focus = {
+		id = GER_KPD_takes_control
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 9
+		y = 1
+		relative_position_id = GER_rebuild_the_country
+		prerequisite = { focus = GER_rebuild_the_country }
+		prerequisite = { focus = GER_gesellschaft }
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+		    add_ideas = GER_rebuild_the_nation_idea
+
+		    add_stability = 0.10
+		}
+	}
+}

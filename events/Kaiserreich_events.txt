@@ -1,0 +1,116 @@
+﻿add_namespace = kaisergermany
+
+# Event starting the civil war
+country_event = {
+	id = kaisergermany.1
+	title = kaisergermany.1.t
+	desc = kaisergermany.1.d
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+	
+	#civil war starts
+	option = {
+		name = kaisergermany.1.a
+		trigger = {
+			has_country_flag = germany_chose_communists
+		}
+		hidden_effect = {
+			set_capital = 248
+			start_civil_war = {
+				ruling_party = communism
+				ideology = absolutist
+				size = 0.5
+				capital = 234
+			}
+			load_oob = "GER_German_Civil_War_mod"
+			random_other_country = {
+				limit = {
+					original_tag = GER
+					has_government = absolutist
+				}
+				set_stability = 0.9
+				set_war_support = 0.8
+				load_oob = "GER_German_Civil_War_absolutist"
+			}
+			hidden_effect = { news_event = { id = kaiserreich_news.1 hours = 6 } }
+			
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.60
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.07
+			}
+			add_popularity = {
+				ideology = absolutist
+				popularity = 0.13
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.20
+			}	
+			set_stability = 0.9
+			set_war_support = 0.8
+		}
+		custom_effect_tooltip = GER_absolutist_civil_war_tt
+		add_stability = -0.25
+	}
+
+	option = {
+		name = kaisergermany.1.b
+		trigger = {
+			has_country_flag = germany_chose_fascists
+		}
+		hidden_effect = {
+			set_capital = 248
+			start_civil_war = {
+				ruling_party = fascism
+				ideology = absolutist
+				size = 0.5
+				capital = 234
+			}
+			load_oob = "GER_German_Civil_War_mod"
+			random_other_country = {
+				limit = {
+					original_tag = GER
+					has_government = absolutist
+				}
+				set_stability = 0.9
+				set_war_support = 0.8
+				load_oob = "GER_German_Civil_War_absolutist"
+			}
+			hidden_effect = { news_event = { id = kaiserreich_news.1 hours = 6 } }
+			
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.60
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.07
+			}
+			add_popularity = {
+				ideology = absolutist
+				popularity = 0.13
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.20
+			}	
+			set_stability = 0.9
+			set_war_support = 0.8
+		}
+		custom_effect_tooltip = GER_absolutist_civil_war_tt
+		add_stability = -0.25
+	}
+}
