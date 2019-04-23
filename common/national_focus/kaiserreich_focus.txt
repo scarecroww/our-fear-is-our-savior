@@ -150,10 +150,8 @@ focus_tree = {
 		    add_stability = -0.35
 		    
 		    add_political_power = 125
-
-		    hidden_effect = {
-		        country_event = kaiserreich.1
-		    }
+		        
+		    country_event = kaisergermany.1
 		}
 	}
 
