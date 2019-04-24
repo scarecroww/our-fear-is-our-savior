@@ -50,26 +50,26 @@ set_politics = {
 
     parties = {
         absolutist = {
-            popularity = 4
+            popularity = 57
         }
         communism = {
-            popularity = 0
+            popularity = 10
         }
         democratic = {
-            popularity = 39
+            popularity = 21
         }
         fascism = {
-            popularity = 54
+            popularity = 12
         }
         neutrality = {
-            popularity = 3
+            popularity = 0
         }
         radical = {
             popularity = 0
         }
     }
     
-    ruling_party = fascism
+    ruling_party = absolutist
     last_election = "1935.7.27"
     election_frequency = 48
     elections_allowed = no
@@ -195,11 +195,11 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.70
 create_country_leader = {
-    name = "Mieczyslaw Mikolajczyk"
-    desc = "POLITICS_MIECZYSLAW_MIKOLAJCZYK_DESC"
-    picture = "GFX_POL_boleslaw_piasecki"
+    name = "Archduke Karl Albrecht"
+    desc = "POLITICS_KARL_ALBRECHT_DESC"
+    picture = "archduke_of_austria.dds"
     expire = "1965.1.1"
-    ideology = fascism_ideology
+    ideology = absolute_monarchy
     traits = {
     }
 }
@@ -292,7 +292,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ludwik Rózicky"
+	name = "Ludwik R?icky"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -336,7 +336,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Stefan Rózicky"
+	name = "Stefan R?icky"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -369,7 +369,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Leopold Rómmel"
+	name = "Leopold R?mel"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -479,7 +479,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Wojciech Bór-Komorowski"
+	name = "Wojciech B?-Komorowski"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -512,7 +512,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Józef Sowinski"
+	name = "J?ef Sowinski"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -677,7 +677,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Marceli Brzóska"
+	name = "Marceli Brz?ka"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -743,7 +743,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Marceli Rómmel"
+	name = "Marceli R?mel"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -842,7 +842,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Mieczyslaw Rómmel"
+	name = "Mieczyslaw R?mel"
 	picture = ""
 	traits = { }
 	skill = 1

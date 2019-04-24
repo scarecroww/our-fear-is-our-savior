@@ -226,6 +226,26 @@ create_country_leader = {
     traits = {
     }
 }
+
+create_country_leader = {
+    name = "Alfred Hugenberg"
+    desc = "POLITICS_ALFRED_HUGENBERG_DESC"
+    picture = "alfred_hugenberg.dds"
+    expire = "1965.1.1"
+    ideology = fascism_ideology
+    traits = {
+    }
+}
+
+create_country_leader = {
+    name = "Hermann Remmele"
+    desc = "POLITICS_HERMANN_REMMELE_DESC"
+    picture = "hermann_remmele.dds"
+    expire = "1965.1.1"
+    ideology = fascism_ideology
+    traits = {
+    }
+}
 create_corps_commander = {
 	name = "Joachim von Wettin"
 	picture = ""

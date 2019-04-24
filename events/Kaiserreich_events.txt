@@ -60,6 +60,8 @@ country_event = {
 		}
 		custom_effect_tooltip = GER_absolutist_civil_war_tt
 		add_stability = -0.25
+
+		set_global_flag = germany_is_in_a_civil_war
 	}
 
 	option = {
@@ -111,6 +113,8 @@ country_event = {
 			set_war_support = 0.8
 		}
 		custom_effect_tooltip = GER_absolutist_civil_war_tt
-		add_stability = -0.25
+		add_stability = -0.35
+
+		set_global_flag = germany_is_in_a_civil_war
 	}
 }

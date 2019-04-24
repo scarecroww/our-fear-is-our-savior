@@ -179,19 +179,15 @@ add_opinion_modifier = { target = YUN modifier = positive_0 }
 
 
 add_ideas = {
-	volunteer_only
-	civilian_economy
-	export_focus
-	culture_romanian
 }
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-    name = "Vintila Iliasevici"
-    desc = "POLITICS_VINTILA_ILIASEVICI_DESC"
-    picture = "gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
+    name = "Ana Pauker"
+    desc = "POLITICS_ANA_PAUKER_DESC"
+    picture = "ana_pauker.dds"
     expire = "1965.1.1"
-    ideology = socialism
+    ideology = marxism
     traits = {
     }
 }
