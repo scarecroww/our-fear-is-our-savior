@@ -242,7 +242,7 @@ create_country_leader = {
     desc = "POLITICS_HERMANN_REMMELE_DESC"
     picture = "hermann_remmele.dds"
     expire = "1965.1.1"
-    ideology = fascism_ideology
+    ideology = marxism
     traits = {
     }
 }

@@ -23,13 +23,11 @@ country_event = {
 
 	option = {
 	    name = polandmod.1.a
-
-	    GER = {
-	        set_autonomy = {
-                target = POL
-                autonomy_state = autonomy_free
-            } 
-        }
+	        
+	    set_autonomy = {
+            target = POL
+            autonomy_state = autonomy_free
+        } 
 
         set_country_flag = poland_gained_independence
 
@@ -40,6 +38,8 @@ country_event = {
             idea = POL_gained_independence
             days = 90
         }
+
+        retire_country_leader = yes
 
         create_country_leader = {
 	        name = "Roman Dmowski"
