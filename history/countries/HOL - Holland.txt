@@ -185,9 +185,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.90
 create_country_leader = {
-    name = "Rutger van Galen"
-    desc = "POLITICS_RUTGER_VAN GALEN_DESC"
-    picture = "GFX_HOL_Anton_Mussert"
+    name = "Meinoud Rost van Tonningen"
+    desc = "POLITICS_MEINOUD_ROST_VAN_TONNINGEN_DESC"
+    picture = "Meinoud_Rost_van_Tonningen.dds"
     expire = "1965.1.1"
     ideology = fascism_ideology
     traits = {
@@ -634,7 +634,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Daniël van Haren"
+	name = "Dani? van Haren"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -887,7 +887,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Adolf Köhler"
+	name = "Adolf K?hler"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -964,7 +964,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Rutger Köhler"
+	name = "Rutger K?hler"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -975,7 +975,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Constantijn Köhler"
+	name = "Constantijn K?hler"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -1019,7 +1019,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Rafaël van Keppel"
+	name = "Rafa? van Keppel"
 	picture = ""
 	traits = { }
 	skill = 1
@@ -1041,7 +1041,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Zacharias Chassé"
+	name = "Zacharias Chass?
 	picture = ""
 	traits = { }
 	skill = 1

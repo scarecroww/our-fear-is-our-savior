@@ -33,7 +33,7 @@ country_event = {
 				set_war_support = 0.8
 				load_oob = "GER_German_Civil_War_absolutist"
 			}
-			hidden_effect = { news_event = { id = kaiserreich_news.1 hours = 6 } }
+			hidden_effect = { news_event = { id = kaiserreich_news.0 hours = 6 } }
 			
 			set_politics = {
 				ruling_party = communism
@@ -58,8 +58,11 @@ country_event = {
 			set_stability = 0.9
 			set_war_support = 0.8
 		}
-		custom_effect_tooltip = GER_absolutist_civil_war_tt
-		add_stability = -0.25
+		custom_effect_tooltip = GER_unpopular_government
+		
+		add_stability = -0.35
+
+		remove_ideas = GER_economy_in_decline
 
 		set_global_flag = germany_is_in_a_civil_war
 	}
@@ -115,6 +118,36 @@ country_event = {
 		custom_effect_tooltip = GER_absolutist_civil_war_tt
 		add_stability = -0.35
 
+		remove_ideas = GER_unpopular_government
+
 		set_global_flag = germany_is_in_a_civil_war
 	}
+}
+
+country_event = {
+	id = kaisergermany.2
+	title = kaisergermany.2.t
+	desc = kaisergermany.2.d
+	picture = GFX_report_event_ger_civil_war
+
+	trigger = {
+	    GER = {
+	        exists = yes
+	        has_civil_war = no
+	    }
+	}
+
+	mean_time_to_happen = {
+	    hours = 18
+	}
+	
+	#This is indeed a tough period
+	option = {
+		name = kaisergermany.2.a
+
+		add_stability = -0.15
+
+		add_ideas = GER_economy_in_ruins
+	}
+
 }

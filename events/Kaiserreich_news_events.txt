@@ -1,1 +1,18 @@
-﻿
+﻿add_namespace = kaiserreich_news
+
+news_event = {
+	id = kaiserreich_news.0
+	title = kaiserreich_news.0.t
+	desc = kaiserreich_news.0.d
+	picture = GFX_news_event_nuke # Image displayed alongside the text.
+
+	major = yes 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = kaiserreich_news.0.a # The localisable text that appears on the button.
+	}
+}
