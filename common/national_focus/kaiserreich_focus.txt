@@ -165,10 +165,7 @@ focus_tree = {
 		cost = 7
 		available_if_capitulated = yes
 		available = {
-		    has_civil_war = no
-		    NOT = {
-		        has_government = absolutist
-		    }
+		    has_country_flag = germany_civil_war_ended
 		}
 		completion_reward = {
 		    add_ideas = GER_rebuild_the_nation_idea
@@ -178,7 +175,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_DAP_takes_control
+		id = GER_DNVP_takes_control
 		icon = GFX_goal_generic_allies_build_infantry
 		x = -9
 		y = 1
@@ -249,16 +246,273 @@ focus_tree = {
 
 	focus = {
 		id = GER_industry_revival
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 9
-		y = 1
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 2
 		relative_position_id = GER_rebuild_the_country
 		prerequisite = { focus = GER_rebuild_the_country }
-		prerequisite = { focus = GER_gesellschaft }
+		prerequisite = { 
+		focus = GER_KPD_takes_control 
+		focus = GER_DNVP_takes_control
+		}
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+		    swap_ideas = {
+		        remove_idea = GER_economy_in_ruins
+                add_idea = GER_economy_in_recovery
+		    }
+
+		    add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = GER_rebuild_the_autobahns
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		relative_position_id = GER_industry_revival
+		prerequisite = { focus = GER_industry_revival }
 		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
 		    
+		    234 = {
+		        add_building_construction = {
+                    type = infrastructure
+                    level = 3
+                    instant_build = yes
+                }
+
+                add_extra_state_shared_building_slots = 2
+		    }
+
+		    235 = {
+		        add_building_construction = {
+                    type = infrastructure
+                    level = 3
+                    instant_build = yes
+                }
+
+                add_extra_state_shared_building_slots = 2
+		    }
+
+		    241 = {
+		        add_building_construction = {
+                    type = infrastructure
+                    level = 3
+                    instant_build = yes
+                }
+
+                add_extra_state_shared_building_slots = 2
+		    }
 		}
+	}
+
+	focus = {
+		id = GER_armys_strength
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 2
+		y = 1
+		relative_position_id = GER_industry_revival
+		prerequisite = { focus = GER_industry_revival }
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = {
+		    random_owned_state = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+
+            PREV = {
+                random_owned_state = {
+                    limit = { NOT = { state = PREV.PREV } } # The first PREV scopes back to the country, the second scopes back to the first random state
+                    add_extra_state_shared_building_slots = 2
+                    add_building_construction = {
+                        type = arms_factory
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+            }
+		}
+	}
+
+	focus = {
+		id = GER_nations_condition
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -2
+		y = 1
+		relative_position_id = GER_industry_revival
+		prerequisite = { focus = GER_industry_revival }
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = {
+		    random_owned_state = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }
+
+            PREV = {
+                random_owned_state = {
+                    limit = { NOT = { state = PREV.PREV } } # The first PREV scopes back to the country, the second scopes back to the first random state
+                    add_extra_state_shared_building_slots = 2
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+            }
+		}
+	}
+
+	focus = {
+		id = GER_ask_the_soviets_for_loans
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 1
+		y = 2
+		relative_position_id = GER_industry_revival
+		prerequisite = { 
+		focus = GER_rebuild_the_autobahns
+		focus = GER_armys_strength
+		focus = GER_nations_condition 
+		}
+		mutually_exclusive = {
+            focus = GER_ask_the_british_for_loans
+        }
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+		    SOV = {
+		        country_event = {
+                    id = kaisergermany.3
+                    days = 10
+                    random = 50
+                }
+		    }
+
+		    set_country_flag = germany_asked_for_loans
+		}
+	}
+
+	focus = {
+		id = GER_ask_the_british_for_loans
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -1
+		y = 2
+		relative_position_id = GER_industry_revival
+		prerequisite = { 
+		focus = GER_rebuild_the_autobahns
+		focus = GER_armys_strength
+		focus = GER_nations_condition 
+		}
+		mutually_exclusive = {
+            focus = GER_ask_the_soviets_for_loans
+        }
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+		    ENG = {
+		        country_event = {
+                    id = kaisergermany.3
+                    days = 10
+                    random = 50
+                }
+		    }
+
+		    set_country_flag = germany_asked_for_loans
+		}
+	}
+
+	focus = {
+		id = GER_industrial_leap
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 3
+		relative_position_id = GER_industry_revival
+		prerequisite = { 
+		focus = GER_ask_the_soviets_for_loans
+		focus = GER_ask_the_british_for_loans
+		}
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = {
+		    add_tech_bonus = {
+                bonus = 0.3
+                uses = 4
+                category = industry
+            }
+
+            add_political_power = 75
+		}
+	}
+
+	focus = {
+		id = GER_meer
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 1
+		y = 4
+		relative_position_id = GER_industry_revival
+		prerequisite = { 
+		focus = GER_industrial_leap
+		}
+		mutually_exclusive = {
+		focus = GER_himmel
+		}
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+		    random_owned_state = {
+		        add_extra_state_shared_building_slots = 3
+		        add_building_construction = {
+                    type = dockyard
+                    level = 3
+                    instant_build = yes
+                }
+		    }
+		}
+	}
+
+	focus = {
+		id = GER_himmel
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -1
+		y = 4
+		relative_position_id = GER_industry_revival
+		prerequisite = { 
+		focus = GER_industrial_leap
+		}
+		mutually_exclusive = {
+		focus = GER_meer
+		}
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+	        253 = {
+	            add_building_construction = {
+                       type = air_base
+                       level = 7
+                       instant_build = yes
+                   }
+	        }
+	        random_owned_state = {
+	        limit = { NOT = { state = 253 } is_home = yes }
+	            add_building_construction = {
+                    type = air_base
+                    level = 7
+                    instant_build = yes
+                }
+	        }
+	    }
 	}
 }

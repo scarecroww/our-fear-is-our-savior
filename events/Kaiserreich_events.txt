@@ -150,6 +150,176 @@ country_event = {
 		add_stability = -0.15
 
 		add_ideas = GER_economy_in_ruins
+
+		set_country_flag = germany_civil_war_ended
+
+		hidden_effect = {
+		    all_owned_state = {
+		        set_building_level = {
+                    type = infrastructure
+                    level = 3
+                    instant_build = yes
+                }
+            }
+		}
+	}
+}
+
+country_event = {
+	id = kaisergermany.3
+	title = kaisergermany.3.t
+	desc = kaisergermany.3.d
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = { # Accept the request
+		name = kaisergermany.3.a
+
+		GER = {
+		    country_event = kaisergermany.4
+		}
 	}
 
+	option = { # Refuse
+		name = kaisergermany.3.a
+
+		GER = {
+		    country_event = kaisergermany.5
+		}
+	}
+}
+
+country_event = {
+	id = kaisergermany.4
+	title = kaisergermany.4.t
+	desc = kaisergermany.4.d
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = { # Good choice
+		name = kaisergermany.4.a
+
+		add_timed_idea = {
+            idea = GER_got_loans
+            days = 365
+        }
+
+        add_political_power = 100
+
+        add_opinion_modifier = {
+            target = FROM
+            modifier = got_loans
+        }
+
+        
+	}
+}
+
+country_event = {
+	id = kaisergermany.5
+	title = kaisergermany.5.t
+	desc = kaisergermany.5.d
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = { # We didn't need them anyway
+		name = kaisergermany.5.a
+
+        add_political_power = -50
+
+        add_opinion_modifier = {
+            target = FROM
+            modifier = refused_to_send_loans
+        }
+	}
+}
+
+country_event = {
+	id = kaisergermany.6
+	title = kaisergermany.6.t
+	desc = kaisergermany.6.d
+	picture = GFX_report_event_ger_civil_war
+
+	trigger = {
+	    tag = GER
+
+	    NOT = {
+	        has_idea = GER_got_loans
+	    }
+	}
+
+	mean_time_to_happen = {
+	    days = 1
+	}
+
+	option = { # I guess we have to...
+		name = kaisergermany.6.a
+
+        add_political_power = -60
+
+        swap_ideas = {
+            remove_idea = GER_got_loans
+            add_idea = GER_returning_loans
+        }
+	}
+}
+
+country_event = {
+	id = kaisergermany.7
+	title = kaisergermany.7.t
+	desc = kaisergermany.7.d
+	picture = GFX_report_event_ger_civil_war
+
+	trigger = {
+	    tag = GER
+
+	    NOT = {
+	        has_idea = GER_got_loans
+	    }
+	}
+
+	mean_time_to_happen = {
+	    days = 1
+	}
+
+	option = { # I guess we have to...
+		name = kaisergermany.7.a
+
+        add_political_power = -60
+
+        swap_ideas = {
+            remove_idea = GER_got_loans
+            add_idea = GER_returning_loans
+        }
+        
+        set_country_flag = germany_returning_loans
+    }
+}
+
+country_event = {
+	id = kaisergermany.8
+	title = kaisergermany.8.t
+	desc = kaisergermany.8.d
+	picture = GFX_report_event_ger_civil_war
+
+	trigger = {
+	    tag = GER
+
+	    has_country_flag = germany_returning_loans
+	}
+
+	mean_time_to_happen = {
+	    days = 180
+	}
+
+	option = { # Finally
+		name = kaisergermany.8.a
+
+        add_political_power = 50
+
+        remove_idea = GER_returning_loans
+    }
 }
