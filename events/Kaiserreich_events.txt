@@ -135,6 +135,8 @@ country_event = {
 	        exists = yes
 	        has_civil_war = no
 	    }
+
+	    tag = GER
 	}
 
 	mean_time_to_happen = {
