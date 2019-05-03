@@ -246,7 +246,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_industry_revival
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_generic_construct_civilian
 		x = 0
 		y = 2
 		relative_position_id = GER_rebuild_the_country
@@ -312,7 +312,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_armys_strength
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 2
 		y = 1
 		relative_position_id = GER_industry_revival
@@ -345,7 +345,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_nations_condition
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_generic_construct_civ_factory
 		x = -2
 		y = 1
 		relative_position_id = GER_industry_revival
@@ -378,7 +378,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_ask_the_soviets_for_loans
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_chi_mission_to_the_soviet_union
 		x = 1
 		y = 2
 		relative_position_id = GER_industry_revival
@@ -407,7 +407,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_ask_the_british_for_loans
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_chi_british_cooperation
 		x = -1
 		y = 2
 		relative_position_id = GER_industry_revival
@@ -436,7 +436,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_industrial_leap
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_generic_industry_2
 		x = 0
 		y = 3
 		relative_position_id = GER_industry_revival
@@ -459,7 +459,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_meer
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 1
 		y = 4
 		relative_position_id = GER_industry_revival
@@ -485,7 +485,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_himmel
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_generic_build_airforce
 		x = -1
 		y = 4
 		relative_position_id = GER_industry_revival
@@ -513,6 +513,84 @@ focus_tree = {
                     instant_build = yes
                 }
 	        }
+	    }
+	}
+
+	focus = {
+		id = GER_focus_on_ruhr
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -1
+		y = 5
+		relative_position_id = GER_industry_revival
+		prerequisite = { 
+		focus = GER_meer
+		focus = GER_himmel
+		}
+
+		mutually_exclusive = {
+		focus = GER_focus_on_wurttemberg
+		}
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+	    	238 = {
+	    		add_building_construction = {
+				    type = arms_factory
+				    level = 4
+				    instant_build = yes
+				}
+
+				add_extra_state_shared_building_slots = 4
+	    	}
+	    }
+	}
+
+	focus = {
+		id = GER_focus_on_wurttemberg
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 1
+		y = 5
+		relative_position_id = GER_industry_revival
+		prerequisite = { 
+		focus = GER_meer
+		focus = GER_himmel
+		}
+
+		mutually_exclusive = {
+		focus = GER_focus_on_ruhr
+		}
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+	    	239 = {
+	    		add_building_construction = {
+				    type = industrial_complex
+				    level = 4
+				    instant_build = yes
+				}
+
+				add_extra_state_shared_building_slots = 4
+	    	}
+	    }
+	}
+
+	focus = {
+		id = GER_as_good_as_new
+		icon = GFX_focus_generic_industry_3
+		x = 0
+		y = 6
+		relative_position_id = GER_industry_revival
+		prerequisite = { 
+		focus = GER_focus_on_ruhr
+		focus = GER_focus_on_wurttemberg
+		}
+
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+			remove_ideas = GER_economy_in_recovery
+
+			add_stability = 0.15
 	    }
 	}
 }
